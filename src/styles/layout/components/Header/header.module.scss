@@ -1,0 +1,24 @@
+@import '../../../common';
+
+.header-full{
+    background-color: $background-color;
+    width: 100vw;
+    height: auto;
+
+    .header-nav{
+        
+        ul{
+            display: flex;
+            flex-direction: row;
+            gap: 2rem;
+
+            &>*{
+                color: $text-color
+            }
+        }
+    }
+}
+
+.padding{
+    padding: 20px 0px 30px 50px;
+}
