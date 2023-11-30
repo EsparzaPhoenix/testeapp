@@ -11,7 +11,7 @@ export default function Header() {
                 <li> <Link href="/"> Home </Link> </li>
                 <li> <Link href="/listapaciente"> Lista Paciente </Link></li>
                 <li> <Link href="/batata"> Batata </Link></li>
-                <li>Teste3</li>
+                <li> <Link href="/listacomida"> Lista Comida</Link></li>
                 </ul>
             </nav>
         </header>
